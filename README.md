@@ -55,7 +55,7 @@
   
   B.for hybrid potential （e.g. NEP +  LJ/CUT)
   pair_style 	hybrid  nep 	 lj/cut 12.0   
-  pair_coeff  * *     nep nep.txt  Pd Cu Ni P  NULL NULL NULL NULL   NULL # NULL means the type that is not described by NEP
+  pair_coeff  * *     nep  YOUR_NEP_MODEL_FILE.txt  Pd Cu Ni P  NULL NULL NULL NULL   NULL # NULL means the type that is not described by NEP
   ```
   
   The **./example** directory contains detailed usage examples.
